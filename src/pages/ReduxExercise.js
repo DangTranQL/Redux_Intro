@@ -5,7 +5,7 @@ import productTwo from "../images/product2.gif";
 import ReactJson from "react-json-view";
 import { useDispatch, useSelector } from "react-redux";
 import WrapperBox from "../components/WrapperBox";
-import { addToCart, cartSlice, removeCart } from "../service/cart/slice";
+import { addToCart, removeCart } from "../service/cart/slice";
 
 const RootComponent = (props) => {
   return (
